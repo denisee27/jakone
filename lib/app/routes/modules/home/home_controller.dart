@@ -1,12 +1,13 @@
 import 'package:get/get.dart';
 
 class HomeController extends GetxController {
-  final cekToken = false;
+  final List<String> images = [
+    'assets/banner/main_1.png',
+    'assets/banner/main_1.png',
+    'assets/banner/main_1.png',
+  ];
   @override
   void onInit() {
     super.onInit();
-    // Timer(const Duration(seconds: 3), () {
-    //   Get.offAllNamed('/landing');
-    // });
   }
 }

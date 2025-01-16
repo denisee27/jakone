@@ -19,7 +19,7 @@ class GuestPage extends GetView<GuestController> {
             bottom: 20,
             right: 20,
             child: Image.asset(
-              'assets/help.png', // Ganti dengan path gambar Anda
+              'assets/help.png',
             ),
           ),
           Column(
@@ -36,10 +36,10 @@ class GuestPage extends GetView<GuestController> {
                         borderRadius: BorderRadius.circular(20),
                         boxShadow: [
                           BoxShadow(
-                            color: Colors.black.withOpacity(0.4), // Warna shadow
-                            offset: Offset(0, 5), // Posisi shadow di bawah (horizontal, vertical)
-                            blurRadius: 3, // Mengatur seberapa blur shadow
-                            spreadRadius: 0, // Tidak perlu spread ke luar
+                            color: Colors.black.withOpacity(0.4),
+                            offset: Offset(0, 5),
+                            blurRadius: 3,
+                            spreadRadius: 0,
                           ),
                         ],
                       ),
@@ -71,10 +71,10 @@ class GuestPage extends GetView<GuestController> {
                         borderRadius: BorderRadius.circular(20),
                         boxShadow: [
                           BoxShadow(
-                            color: Colors.black.withOpacity(0.4), // Warna shadow
-                            offset: Offset(0, 5), // Posisi shadow di bawah (horizontal, vertical)
-                            blurRadius: 3, // Mengatur seberapa blur shadow
-                            spreadRadius: 0, // Tidak perlu spread ke luar
+                            color: Colors.black.withOpacity(0.4),
+                            offset: Offset(0, 5),
+                            blurRadius: 3,
+                            spreadRadius: 0,
                           ),
                         ],
                       ),
@@ -105,7 +105,6 @@ class GuestPage extends GetView<GuestController> {
                   children: [
                     Stack(
                       children: [
-                        // Gambar Monumen Nasional
                         Container(
                           height: 250,
                           width: 250,
@@ -165,7 +164,7 @@ class GuestPage extends GetView<GuestController> {
                       ),
                     ),
                     SizedBox(height: 15),
-                  SizedBox(
+                    SizedBox(
                       width: 300,
                       height: 45,
                       child: ElevatedButton(
